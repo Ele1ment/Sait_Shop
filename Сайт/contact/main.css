@@ -1,0 +1,135 @@
+/* Сброс стилей по умолчанию */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Общие стили */
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: #ddd;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Стили шапки */
+header {
+  text-align: center;
+  
+  
+}
+
+header a {
+  padding-right: 600px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #f70606;
+
+}
+
+/* Стили основного контента */
+main {
+  display: flex; /* Keeps sections side-by-side  */
+  flex-direction: column; /* Stacks sections vertically */
+  align-items: center; /* Centers sections horizontally */
+  gap: 20px;
+}
+
+.contact-info{
+
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.contact-form {
+  background-color: #000000;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  fill: #fff;
+}
+
+/* Стили формы */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 3px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #3e8e41;
+}
+
+/* Стили подвала */
+footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+  /*---Добавление Шрифтов---*/
+  @font-face {
+    font-family: 'Better VCR';
+    src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Better VCR';
+}

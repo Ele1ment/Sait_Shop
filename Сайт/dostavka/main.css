@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+}
+
+.faq {
+  background-color: #0c0815;
+  color: white;
+  font-family: 'Better VCR';
+  src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+  padding: 50px;
+  
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #fff;
+  border-radius: 45px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Better VCR';
+    src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+  }
+
+
+
+  
+  .faq-item ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faq-item ul li {
+    margin-bottom: 10px;
+  }
+  
+  .faq-item ul li:before {
+    content: "•";
+    margin-right: 10px;
+  }
+  
+
+  .strel a{
+padding: 100px;
+text-align: center;
+
+  }
+
+.faq h2 {
+padding: 40px;
+
+}
+
+.iframe-container {
+  position: relative; /* Needed for absolute positioning */
+  width: 100%; /* Sets width to 100% of its container */
+}
+
+.iframe-container iframe {
+  position: absolute; /* Overlaps the container */
+  top: 0; /* Starts at the top of the container */
+  left: 0; /* Starts at the left of the container */
+  width: 100%; /* Takes up 100% width of the container */
+  height: 100%; /* Takes up 100% height of the container */
+}
+
+
+
+
+
+
+  /*---Добавление Шрифтов---*/
+  @font-face {
+    font-family: 'Better VCR';
+    src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Better VCR';
+}

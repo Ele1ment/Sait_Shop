@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fef7f7;
+  background-color: #000000;
+}
+
+header {
+  background-color: #000000;
+  padding: 10px;
+}
+
+header img {
+  width: 50px;
+  
+}
+
+header h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Better VCR';
+  src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+
+.no-underline {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+main {
+  padding: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  padding: 20px;
+  font-family: 'Better VCR';
+  src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+.product-image {
+  width: 50%;
+  padding: 10px;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.image-slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-slider img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-slider img:nth-child(2),
+.image-slider img:nth-child(3) {
+  display: none;
+}
+
+.product-info {
+  width: 50%;
+  padding: 10px;
+}
+
+button {
+  background-color: #ff0000; /* Зеленый цвет */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'Better VCR';
+  src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+button:hover {
+  background-color: #ec6d6d; /* Более темный зеленый цвет */
+}
+
+
+.shipping{
+ padding-bottom: 20px;
+}
+
+
+
+
+
+
+  /*---Добавление Шрифтов---*/
+  @font-face {
+    font-family: 'Better VCR';
+    src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Better VCR';
+}
+
+
+
+
+/*---Модальное окно---*/
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: 'Better VCR';
+  src: url('/Сайт/fonts/Better\ VCR\ 6.1.ttf') format('truetype');
+}
+
+.modal-content {
+  background-color: #000000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #fff;
+  border-radius: 1%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.order-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-item img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.order-item h3 {
+  margin: 0;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.customer-info {
+  margin-top: 20px;
+}
+
+.customer-info label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.customer-info input,
+.customer-info select,
+.customer-info textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.customer-info textarea {
+  height: 100px;
+}
+
+.customer-info button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.customer-info button:hover {
+  background-color: #45a049;
+}
+
+  

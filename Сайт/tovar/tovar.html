@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Футболка SkulMusic Fortnite</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1><a href="/index.html" class="no-underline" >SkufMusic</a></h1>
+    <a href="/Сайт/katalog/index.html"><img src="image/back.png"  alt="SkufMusic" style="width: 40px;" ></a>
+    
+  </header>
+  <main>
+    <section class="product-card">
+      <div class="product-image">
+        <img src="image/Gutiar.gif" alt="Футболка SkulMusic Fortnite">
+      </div>
+      <div class="product-info">
+        <h1>Гитара SkulMusic FortniteEdution</h1>
+        <p class="price">19 850 RUB</p>
+        <p class="size">Размер: M</p>
+        <p class="availability">В наличии</p>
+        <p class="collection">NEW COLLECTION GAME COLLECTION</p>
+        <p class="description">
+          Гитара 100% кайфа. Плотность 280 грамм. Клен крутой, пафф-печать. Стирать при 30° и наизнанку.
+        </p>
+        <p class="pre-order">Pre-order!</p>
+        <p class="shipping">Отправка через 2-3 недели.</p>
+        <form action="#">
+          
+          <button type="submit">Добавить в корзину</button>
+        </form>
+      </div>
+
+      
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 SkufMusic</p>
+  </footer>
+  <div id="order-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>ТВОЙ ЗАКАЗ</h2>
+      <div class="order-info">
+        <div class="order-item">
+          <img src="image/Gutiar.gif" alt="Футболка SkulMusic Fortnite">
+          <div>
+            <h3>Гитара SkulMusic FortniteEdution</h3>
+            <p class="price">19 850 RUB</p>
+            <p class="size">Размер: M</p>
+          </div>
+        </div>
+        <p class="total">Сумма: 19 850 RUB</p>
+      </div>
+      <form action="#">
+        <div class="customer-info">
+          <h2>Данные покупателя</h2>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" required>
+          <label for="phone">Телефон:</label>
+          <input type="tel" id="phone" required>
+          <label for="city">Город:</label>
+          <input type="text" id="city" required>
+          <label for="delivery-method">Способ доставки:</label>
+          <select id="delivery-method" required>
+            <option value="sdek">СДЭК (от 3 дней)</option>
+            <option value="international">Международная (от 7 дней)</option>
+          </select>
+          <label for="pickup-point">Пункт получения:</label>
+          <input type="text" id="pickup-point">
+          <label for="name">ФИО:</label>
+          <input type="text" id="name" required>
+          <label for="comment">Комментарий:</label>
+          <textarea id="comment"></textarea>
+          <label for="telegram-nickname">Ник в Telegram:</label>
+          <input type="text" id="telegram-nickname">
+          <label for="promocode">Промокод:</label>
+          <input type="text" id="promocode">
+          <label for="payment-method">Способ оплаты:</label>
+          <select id="payment-method" required>
+            <option value="card">Оплата по карте</option>
+            <option value="tinkoff">Долями от Тинькофф</option>
+          </select>
+        </div>
+        <button type="submit">Оформить заказ</button>
+      </form>
+    
+
+    </div>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>

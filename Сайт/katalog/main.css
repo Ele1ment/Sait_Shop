@@ -1,0 +1,100 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  color: rgb(242, 7, 7);
+  text-align: center;
+  font-family: 'Better VCR';
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.container1 {
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+.container1 a {
+  padding-right: 700px;
+  
+}
+
+
+.container a{
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.container a:hover {
+  color: red;
+}
+
+
+
+
+.products {
+  padding: 20px 0;
+}
+
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%; /* Adjust width as needed */
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.product a {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  background-color: #090808;
+}
+
+/* Font Family for Better VCR */
+@font-face {
+    font-family: 'Better VCR';
+    src: url('/Сайт/fonts/Better VCR 6.1.ttf') format('truetype');
+}
+
